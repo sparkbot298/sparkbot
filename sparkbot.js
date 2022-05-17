@@ -1,6 +1,3 @@
-// This is sparkbot's code
-// Please be respectful when using this, please credit me somewhere if you're self hosting
-// Change all the numbers to your bot logging channel ID
 const { Client, Intents, MessageEmbed } = require("discord.js");
 const bot = new Client({
   intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES]
